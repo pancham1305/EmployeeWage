@@ -37,4 +37,9 @@ public class EmployeeWage {
  * git remote add origin <URL>
  * git checkout is used to exit branch and enter other branch
  * git checkout -b is used to create a new branch and then enter
+ * 
+ * After you have worked in the other branch and everything is working
+ * correctly,merge the branch in the branch
+ * the merge actually takes place only in the current local branch but you will
+ * be have to push too.
  */
