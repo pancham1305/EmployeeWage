@@ -1,6 +1,14 @@
+import java.util.Random;
+
 public class EmployeeWage {
     public static void main(String[] args) {
-
+        Employee e1 = new Employee("Raj", 1);
+        Random r = new Random();
+        int i = r.nextInt(2);
+        switch (i) {
+            case 1 -> e1.attendance(true);
+            default -> e1.attendance(false);
+        }
     }
 }
 
@@ -28,5 +36,5 @@ public class EmployeeWage {
  * 
  * git remote add origin <URL>
  * git checkout is used to exit branch and enter other branch
- * 
+ * git checkout -b is used to create a new branch and then enter
  */
