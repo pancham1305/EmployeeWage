@@ -25,6 +25,8 @@ public class EmployeeWage {
  * Next: Change we will be renaming master to main (only 1 time)
  * 
  * We have to provide the remote repository link and save it inside a keyword
-
+ * 
  * git remote add origin <URL>
+ * git checkout is used to exit branch and enter other branch
+ * 
  */
